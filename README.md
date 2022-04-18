@@ -7,8 +7,8 @@ Each project is aimed at practicing a specific skill:
 - Data preparation(обработка категорий — label/ohe/frequency, проекция числовых на категории, трансформация числовых, бининг)
 - Models
 
-## Description of projects
-- [research_of_apartments_for_sale.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/research_of_apartments_for_sale.ipynb)
+## Telecom project
+- [telecom.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/telecom.ipynb)
 
      ___Researching apartment advertisements___    
      
@@ -16,17 +16,10 @@ Each project is aimed at practicing a specific skill:
      
      ___Продажа квартир в Санкт-Петербурге — анализ рынка недвижимости___
      
-     Используя данные сервиса Яндекс.Недвижимость, определить рыночную стоимость объектов недвижимости и типичные параметры квартир
-      
-- [borrower_reliability_research.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/borrower_reliability_research.ipynb)    
-    
-     ___Borrower Reliability Research___    
+     Используя данные персональные данные о некоторых клиентах, телекоммуникационная компания хочет научиться предсказывать отток клиентов. В проект входит: обработка и анализ данных, возможный план работ, подбор алгоритма МО для задачи, подбор гиперпараметров. Сформированы выводы. Качество моделей 
+     - CatBoostClassifier (ROC-AUC=0.86)
+     - LogisticRegressionCV (ROC-AUC=0.85)
+     - RandomForestClassifier (ROC-AUC=0.85)
      
-     The customer is the credit department of the bank. It is necessary to figure out whether the marital status and the number of the client's children affect the fact that the loan is repaid on time. Input data from the bank - statistics on the clients solvency.
-    
-    
-    ___Исследование надёжности заёмщиков — анализ банковских данных___    
-    
-    На основе статистики о платёжеспособности клиентов исследовать влияет ли семейное положение и количество детей клиента на факт возврата кредита в срок
-    
-    
+     В качестве реализации есть наброски API с использованием FastAPI
+     
