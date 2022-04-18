@@ -8,11 +8,7 @@ Each project is aimed at practicing a specific skill:
 - Models
 
 ## Telecom project
-- [telecom.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/telecom.ipynb)
-
-     ___Researching apartment advertisements___    
-     
-     You have at your disposal the data of the Yandex.Real estate service - an archive of advertisements for the sale of apartments in St. Petersburg and neighboring settlements for several years. It is necessary to learn how to determine the market value of real estate objects. 
+- [telecom.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/telecom.ipynb) 
      
      ___Продажа квартир в Санкт-Петербурге — анализ рынка недвижимости___
      
