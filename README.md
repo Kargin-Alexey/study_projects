@@ -7,7 +7,7 @@ Each project is aimed at practicing a specific skill:
 - Data preparation(обработка категорий — label/ohe/frequency, проекция числовых на категории, трансформация числовых, бининг)
 - Models
 
-## Проект телеком
+## Проекты телеком
 - [telecom.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/telecom.ipynb) 
      
      ___Предсказание оттока клиентов___
@@ -18,6 +18,20 @@ Each project is aimed at practicing a specific skill:
      - RandomForestClassifier (ROC-AUC=0.85)
      
      В качестве реализации есть наброски API с использованием FastAPI
+     
+     
+## Проекты финтех
+- [Sber.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/Sber.ipynb) 
+     
+     ___Тестовое задание для Сбера___
+     
+     В данном проекте решения задачь: поиск чисел Фиббоначи, SQL запросы, определение отрасли компании по её операциям.
+     
+- [bankruptcy_probability.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/bankruptcy_probability.ipynb) 
+     
+     ___Предсказание банкротства кампании___
+     
+     В проекте определялась вероятности банкротсва кампнаии с помощью методов МО.
      
      
 ## Мультиклассовая классификация
