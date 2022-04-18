@@ -7,10 +7,10 @@ Each project is aimed at practicing a specific skill:
 - Data preparation(обработка категорий — label/ohe/frequency, проекция числовых на категории, трансформация числовых, бининг)
 - Models
 
-## Telecom project
+## Проект телеком
 - [telecom.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/telecom.ipynb) 
      
-     ___Продажа квартир в Санкт-Петербурге — анализ рынка недвижимости___
+     ___Предсказание оттока клиентов___
      
      Используя данные персональные данные о некоторых клиентах, телекоммуникационная компания хочет научиться предсказывать отток клиентов. В проект входит: обработка и анализ данных, возможный план работ, подбор алгоритма МО для задачи, подбор гиперпараметров. Сформированы выводы. Качество моделей 
      - CatBoostClassifier (ROC-AUC=0.86)
@@ -18,4 +18,13 @@ Each project is aimed at practicing a specific skill:
      - RandomForestClassifier (ROC-AUC=0.85)
      
      В качестве реализации есть наброски API с использованием FastAPI
+     
+     
+## Мультиклассовая классификация
+- [MNIST.ipynb](https://github.com/Kargin-Alexey/study_projects/blob/main/MNIST.ipynb) 
+     
+     ___Изучение датасета MNIST___
+     
+     В данном проекте я изучал различные подходы к мультиклассовой классификации на классичнеском датасете MNIST. Максимальное Accuracy=0.98 достигнуто с помощью трёхслойной нейросети. 
+     
      
