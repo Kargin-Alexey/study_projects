@@ -14,3 +14,5 @@ while True:
     else:
         for field in fieldnames:
             print(field.ljust(maxfield), '=>', getattr(record, field))
+
+db.close()
